@@ -26,3 +26,18 @@ And this is the second
 Here is the third line
 And here, the fouth
 """
+
+f = open('files/relative_data.txt', 'r')                # Relative path
+lines = f.read()
+f.close()
+print(lines)
+
+
+
+
+
+
+
+
+
+
