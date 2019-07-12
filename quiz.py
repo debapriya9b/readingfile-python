@@ -42,8 +42,8 @@ Line 4
 
 """
 
-f = open('/home/ubuntu/environment/relative_data.txt', 'r')                # Absolute path
-lines = f.read()                                                           #To ge the absolute path type in command line $ readlink -f relative_data.txt
+f = open('/home/ubuntu/environment/files/relative_data.txt', 'r')                # Absolute path
+lines = f.read()                                                                 #To ge the absolute path type in command line $ readlink -f relative_data.txt
 f.close()
 print(lines)
 
